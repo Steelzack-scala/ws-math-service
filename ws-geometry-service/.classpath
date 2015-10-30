@@ -4,5 +4,5 @@
 	<classpathentry kind="src" path="src/test/scala"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.apache.ivyde.eclipse.cpcontainer.IVYDE_CONTAINER/?project=ws-geometry-service&amp;ivyXmlPath=ivy.xml&amp;confs=*"/>
-	<classpathentry kind="output" path="target/scala/classes"/>
+	<classpathentry kind="output" path="target-eclipse/scala-2.11/classes"/>
 </classpath>
