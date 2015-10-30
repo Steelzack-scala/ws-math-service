@@ -1,0 +1,6 @@
+{
+  "name": "Akka HTTP microservice example",
+  "description": "A microservice that returns geometry equation calculation results",
+  "website": "https://localhost:8080/ws-geometry-service",
+  "success_url": "/gcalc"
+}
