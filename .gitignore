@@ -1,3 +1,16 @@
+# Eclipe
+
 **/.cache-main
 **/.cache-tests
 **/target-eclipse
+
+.classpath
+.project
+
+# IntelliJ
+target
+.idea
+
+
+# SBT
+project
