@@ -1,4 +1,4 @@
-package com.steelzack.geometry.service
+package org.jesperancinha.geometry.service
 
 import akka.actor.ActorSystem
 import akka.event.{ LoggingAdapter, Logging }

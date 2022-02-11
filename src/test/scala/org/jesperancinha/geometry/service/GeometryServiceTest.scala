@@ -1,4 +1,4 @@
-package com.steelzack.geometry.service
+package org.jesperancinha.geometry.service
 
 import akka.event.{Logging, LoggingAdapter}
 import akka.http.scaladsl.testkit.ScalatestRouteTest
@@ -10,6 +10,7 @@ class ServiceSpec extends AnyFlatSpec with Matchers with ScalatestRouteTest with
   def config: Config = {
     ???
   }
-
   val logger: LoggingAdapter = Logging(system, getClass)
+
+
 }
