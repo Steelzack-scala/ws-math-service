@@ -11,42 +11,39 @@
 [![GitHub top language](https://img.shields.io/github/languages/top/jesperancinha/math-service-scala.svg)](#)
 [![GitHub top language](https://img.shields.io/github/languages/code-size/jesperancinha/math-service-scala.svg)](#)
 
-
 ---
 
+## How to run
 
--------------------
+```shell
+sbt run
+```
 
-* Run this service using  sbtrun by following the following examples:
-
--------------------
-
-Area and volume of a Cube:
+#### 1. Area and volume of a Cube:
 
 ```
 $ curl -X POST -H 'Content-Type: application/json' http://localhost:8080/cube -d '{"side": 10}'
 
-```
+```json
 {
-
   "volume": 1000.0,
-
   "area": 600.0
 
 }
-
--------------------
-
-Area and volume of other polygons:
-
 ```
+
+#### 2. Area and volume of other polygons:
+
+```shell
 $ curl -X POST -H 'Content-Type: application/json' http://localhost:8080/recPal -d '{"base": 10, "height": 20, "length" : 5}'
 ```
 
+```json
 {
   "volume": 1000.0,
   "area": 700.0
 }
+```
 
 ## Buy me a coffee
 
