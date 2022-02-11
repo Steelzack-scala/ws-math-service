@@ -23,6 +23,7 @@ sbt run
 
 ```
 $ curl -X POST -H 'Content-Type: application/json' http://localhost:8080/cube -d '{"side": 10}'
+```
 
 ```json
 {
