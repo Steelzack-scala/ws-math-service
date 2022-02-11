@@ -35,7 +35,7 @@ sbt test
 #### 1. Area and volume of a Cube:
 
 ```
-$ curl -X POST -H 'Content-Type: application/json' http://localhost:8080/cube -d '{"side": 10}'
+curl -X POST -H 'Content-Type: application/json' http://localhost:8080/cube -d '{"side": 10}'
 ```
 
 ```json
@@ -49,7 +49,7 @@ $ curl -X POST -H 'Content-Type: application/json' http://localhost:8080/cube -d
 #### 2. Area and volume of other polygons:
 
 ```shell
-$ curl -X POST -H 'Content-Type: application/json' http://localhost:8080/recPal -d '{"base": 10, "height": 20, "length" : 5}'
+curl -X POST -H 'Content-Type: application/json' http://localhost:8080/recPal -d '{"base": 10, "height": 20, "length" : 5}'
 ```
 
 ```json
