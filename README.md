@@ -18,6 +18,19 @@
 ```shell
 sbt run
 ```
+## How to coverage
+
+```shell
+sbt jacoco
+```
+
+## How to test
+
+```shell
+sbt test
+```
+
+## Testing the application
 
 #### 1. Area and volume of a Cube:
 
