@@ -1,6 +1,42 @@
-# ws-math-service
+math-service-scala
+-------------------
 
-** Under development **
+* Run this service using  sbtrun by following the following examples:
+
+-------------------
+
+Area and volume of a Cube:
+
+```
+$ curl -X POST -H 'Content-Type: application/json' http://localhost:8080/cube -d '{"side": 10}'
+
+```
+{
+
+  "volume": 1000.0,
+
+  "area": 600.0
+
+}
+
+-------------------
+
+Area and volume of other polygons:
+
+```
+$ curl -X POST -H 'Content-Type: application/json' http://localhost:8080/recPal -d '{"base": 10, "height": 20, "length" : 5}'
+```
+
+{
+  "volume": 1000.0,
+  "area": 700.0
+}
+
+## Buy me a coffee
+
+I hope you enjoyed this repository. If you did, you can optionally please buy me a coffee, which supports me in constantly improve and make new free content regularly for everyone. Thank you so much!
+
+[![Buy me a coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=jesperancinha&button_colour=046c46&font_colour=ffffff&font_family=Cookie&outline_colour=ffffff&coffee_colour=FFDD00 "title")](https://www.buymeacoffee.com/jesperancinha)
 
 ## About me 👨🏽‍💻🚀🏳️‍🌈
 

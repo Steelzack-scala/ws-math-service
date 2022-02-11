@@ -68,7 +68,7 @@ trait Service extends JSONProtocols {
   val logger: LoggingAdapter
 
   val routeRecPal = {
-    logRequestResult("ws-geometry-service") {
+    logRequestResult("math-service-scala") {
       pathPrefix("recPal") {
         (post & entity(as[RecPalRequest])) { recPalRequest =>
           complete {
@@ -91,7 +91,7 @@ trait Service extends JSONProtocols {
   }
 
   val routesCube = {
-    logRequestResult("ws-geometry-service") {
+    logRequestResult("math-service-scala") {
       pathPrefix("cube") {
         (post & entity(as[CubeRequest])) { cubeRequest =>
           complete {

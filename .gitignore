@@ -1,16 +1,22 @@
-# Eclipe
+*.class
+*.log
 
-**/.cache-main
-**/.cache-tests
-**/target-eclipse
+# simple build tool
+.cache
+.history
+.lib/
+dist/*
+**/target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
 
-.classpath
-.project
+# scala
+.scala_dependencies
+.worksheet
 
-# IntelliJ
-target
+# intellij
 .idea
-
-
-# SBT
-project
+sbt.json
+.bsp
