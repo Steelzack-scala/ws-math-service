@@ -7,4 +7,5 @@ build:
 run: build
 	sbt run
 coverage:
-	sbt jacoco
+	export OMNI_LOG=true
+	sbt assembly package jacoco omniReport -v
