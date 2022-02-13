@@ -7,6 +7,8 @@
 
 [![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
 
+[![Coverage Status](https://coveralls.io/repos/github/jesperancinha/math-service-scala/badge.svg?branch=master)](https://coveralls.io/github/jesperancinha/math-service-scala?branch=master)
+
 [![GitHub language count](https://img.shields.io/github/languages/count/jesperancinha/math-service-scala.svg)](#)
 [![GitHub top language](https://img.shields.io/github/languages/top/jesperancinha/math-service-scala.svg)](#)
 [![GitHub top language](https://img.shields.io/github/languages/code-size/jesperancinha/math-service-scala.svg)](#)
