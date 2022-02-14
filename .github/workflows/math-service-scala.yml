@@ -2,7 +2,7 @@ name: math-service-scala
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
