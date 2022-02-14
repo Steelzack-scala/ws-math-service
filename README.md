@@ -12,6 +12,7 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/2ea8cff0e5be48e29e0b3b5da9e272c4)](https://www.codacy.com/gh/jesperancinha/math-service-scala/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/math-service-scala&amp;utm_campaign=Badge_Grade)
 
 [![Coverage Status](https://coveralls.io/repos/github/jesperancinha/math-service-scala/badge.svg?branch=master)](https://coveralls.io/github/jesperancinha/math-service-scala?branch=master)
+[![codecov](https://codecov.io/gh/jesperancinha/math-service-scala/branch/master/graph/badge.svg?token=OZQu7yApiW)](https://codecov.io/gh/jesperancinha/math-service-scala)
 
 [![GitHub language count](https://img.shields.io/github/languages/count/jesperancinha/math-service-scala.svg)](#)
 [![GitHub top language](https://img.shields.io/github/languages/top/jesperancinha/math-service-scala.svg)](#)
