@@ -7,6 +7,8 @@
 
 [![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
 
+[![math-service-scala](https://github.com/jesperancinha/math-service-scala/actions/workflows/math-service-scala.yml/badge.svg)](https://github.com/jesperancinha/math-service-scala/actions/workflows/math-service-scala.yml)
+
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/2ea8cff0e5be48e29e0b3b5da9e272c4)](https://www.codacy.com/gh/jesperancinha/math-service-scala/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/math-service-scala&amp;utm_campaign=Badge_Grade)
 
 [![Coverage Status](https://coveralls.io/repos/github/jesperancinha/math-service-scala/badge.svg?branch=master)](https://coveralls.io/github/jesperancinha/math-service-scala?branch=master)
