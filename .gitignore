@@ -20,3 +20,6 @@ project/plugins/project/
 .idea
 sbt.json
 .bsp
+
+# OS
+.DS_Store
